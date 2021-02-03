@@ -12,7 +12,7 @@ body {
   height: 100%;
   min-height: 35rem;
   position: relative;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-weight: 300;
 }
 
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-weight: 700;
 }
 
@@ -40,7 +40,8 @@ video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../img/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;
+    background: url("../img/bg-mobile-fallback.jpg") #002e66 no-repeat center
+      center scroll;
     background-size: cover;
   }
   body video {
@@ -189,7 +190,7 @@ video {
     width: 4rem;
   }
   .social-icons ul > li > a:hover {
-    background-color: #002E66;
+    background-color: #002e66;
   }
 }
 
@@ -198,11 +199,22 @@ video {
   border-color: #cd9557;
 }
 
-.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
   background-color: #ba7c37 !important;
   border-color: #ba7c37 !important;
 }
 
 .input {
   font-weight: 300 !important;
+}
+
+.cspio-headline {
+  font-family: "Pacifico";
+  font-weight: 400;
+  font-style: ;
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 1em;
 }
