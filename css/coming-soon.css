@@ -40,7 +40,7 @@ video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../img/bg-mobile-fallback.jpg") #002e66 no-repeat center
+    background: url("../img/girl-on-laptop.webp") #002e66 no-repeat center
       center scroll;
     background-size: cover;
   }
@@ -55,7 +55,7 @@ video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #cd9557;
+  background-color: #FFD166;
   opacity: 0.7;
   z-index: 1;
 }
@@ -131,6 +131,11 @@ video {
   }
 }
 
+img {
+  width: 40%;
+  border-radius: 50%;
+}
+
 .social-icons {
   position: absolute;
   margin-bottom: 2rem;
@@ -147,6 +152,7 @@ video {
 .social-icons ul > li {
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-top: 1rem;
   display: inline-block;
 }
 
